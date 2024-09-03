@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84be2ae45a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <h1><span id="span-P">P</span><span id="span-logo">ortfolio</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <!--------- Header Text ------------->
+
+            <div class="header-text">
+                <div class="left">
+                    <h1>Hi, My name is <span>Vibhu</span></h1>
+                    <h1>& I am a passionate</h1>
+                    <h1><span id="element"></span></h1>
+                </div>
+
+
+                <div class="right">
+                    <!-- <div class="right-container"></div> -->
+                    <img src="./IMG_20240902_012829.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./About-img.webp">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate web developer with a strong foundation in modern web technologies. I am
+                        currently studying MCA at GNIOT College, where I am honing my skills in coding, design, and
+                        software development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML / CSS / JAVASCRIPT</li>
+                            <li><span>Framework</span><br>Tailwind CSS</li>
+                            <li><span>Programming Language</span><br>C / C++</li>
+                            <li><span>Database</span><br>SQL</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-25</span><br>Master of Computer Applications(MCA)</li>
+                            <li><span>2020-23</span><br>Bachelor of Computer Applications(BCA)</li>
+                            <li><span>2019-20</span><br>Intermediate</li>
+                            <li><span>2017-18</span><br>High School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - 22</span><br>Six Month Experience in Digital Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- +++++++++++++++++Services++++++++++-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a creative web designer specializing in crafting visually stunning, user-friendly websites...</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Programming</h2>
+                    <p>I am a dedicated programmer with a strong passion for coding and problem-solving...</p>
+                    <a href="https://en.wikipedia.org/wiki/Computer_programming">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>I am a results-driven digital marketer with expertise in SEO, social media, and content strategy...</p>
+                    <a href="https://en.wikipedia.org/wiki/Digital_marketing">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png">
+                    <div class="layer">
+                        <h3>Food Delivery App</h3>
+                        <p>I developed a responsive and user-friendly food delivery website using HTML, CSS, and JavaScript...</p>
+                        <a href="https://2003vibhu.github.io/Food-Delivery-App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>I developed a fully functional music app using HTML, CSS, and JavaScript, designed to provide users with a seamless audio experience...</p>
+                        <a href="https://github.com/2003vibhu/Food-Delivery-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>I developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a web developer...</p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ++++++++++++++++++Contact Section++++++++++++++++++ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> vibhutiwari715@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9140498181</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vibhu-tiwari-9194a023b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+
+                        <a href="https://github.com/2003vibhu"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./Company_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+
+                        <input type="email" name="Email" placeholder="Your Email" required>
+
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <!-- Message sent succesfully -->
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Made by <i class="fa-solid fa-heart"></i> Vibhu Tiwari</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+
+    <!-- Conatact form Enquiry -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwojCdffICtAEqZewuYF_kCjA_EKxqI6u4wXNJjhdHlMXg6QMQl0jM21mC7Xk9WsUY7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully ";
+
+                setTimeout(()=>{
+                    msg.innerHTML = "";
+                },4000)
+
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
