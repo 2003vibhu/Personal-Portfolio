@@ -509,14 +509,14 @@ nav .fa-solid {
     .header-text .left h1 {
         font-size: 30px;
         text-align: center;
-        margin-bottom: 20px;
-        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-top: 25px;
     }
 
 
     .header-text .right img {
-        margin-top: 5%;
-        width: 65%;
+        margin-top: 7%;
+        width: 70%;
         height: 70%;
 
     }
